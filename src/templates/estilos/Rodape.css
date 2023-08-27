@@ -1,0 +1,38 @@
+footer{
+    font-size: 140%;
+}
+
+.Rodape{
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)), url(../../img/pexels-gül-işık-4102712.jpg);
+    background-size: cover;
+    padding: 1em;
+    text-align: center;
+}
+
+.social_list{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.social_list li{
+    margin: 0 1em;
+}
+
+.social_list li:hover{
+    color: #ffbb33;
+}
+
+.social_list svg{
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.copy_right{
+    margin: -1rem;
+}
+
+.copy_right span{
+    font-weight: bold;
+}

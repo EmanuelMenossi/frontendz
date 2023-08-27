@@ -1,0 +1,12 @@
+.linkDeco{
+text-decoration: none;
+color: rgba(0, 0, 0, 0.884);
+}
+
+.linkDeco:hover{
+    color: rgb(116, 116, 116);
+}
+
+.Menu{
+    padding-left: 1vh;
+}

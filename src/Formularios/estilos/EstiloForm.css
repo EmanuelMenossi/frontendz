@@ -1,0 +1,23 @@
+#corpo{
+  background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)), url(../../img/backgroundCadastro.jpg);
+  background-size: cover;
+  margin-top: 1vh;
+  padding: 5vh;
+  min-height: 100vh
+}
+.mainForm{
+  color: rgb(236, 236, 236);
+  font-size: 1.1em;
+  padding: 2vh;
+  background-color: rgba(0, 0, 0, 0.268);
+  border: 1px solid rgb(255, 255, 255);
+  margin: 0% 22% 2% 22%;
+}
+.botao{
+  text-align: center;
+  margin: 1rem;
+}
+
+.colorWhite{
+  color: rgb(236, 236, 236);
+}

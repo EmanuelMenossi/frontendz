@@ -1,0 +1,30 @@
+.BarraPesquisar{
+    margin: 1rem 0rem 1rem 0rem;
+}
+
+#colorwhite{
+    color: white;
+}
+
+.colorwhite{
+    color: white;
+}
+
+.corpoTabela{
+    background-color: rgba(0, 0, 0, 0.671);
+}
+
+.PessoaEscp{
+    padding: 1rem;
+}
+.BotaoPesquisar{
+    margin-left: 0.4rem;
+}
+
+#green-text {
+    color: green;
+  }
+  
+#red-text {
+ color: red;
+ }

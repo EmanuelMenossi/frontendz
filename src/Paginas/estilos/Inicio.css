@@ -1,0 +1,23 @@
+img {
+    border-radius: 1%;
+  }
+.paragrafo{
+    padding: 1vh;
+    list-style-type: none;
+}
+
+.corLetra{
+    color: white;
+}
+
+#wallpaperInicio{
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .55)), url(../../img/pexels-mikhail-nilov-9158476.jpg);
+    background-size: cover;
+    margin-top: 1vh;
+    padding: 5vh;
+    min-height: 100vh
+  }
+
+.listaInicio{
+    list-style-type: none;
+}
