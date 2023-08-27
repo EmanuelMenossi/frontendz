@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/frontendz/static/css/main.f953642a.css",
+    "main.js": "/frontendz/static/js/main.1b16c8e4.js",
+    "static/media/pexels-gül-işık-4102712.jpg": "/frontendz/static/media/pexels-gül-işık-4102712.b6fc492d09433ff1ec6a.jpg",
+    "static/media/pexels-mikhail-nilov-9158476.jpg": "/frontendz/static/media/pexels-mikhail-nilov-9158476.7d9057f06e002f7c8cb7.jpg",
+    "static/media/backgroundCadastro.jpg": "/frontendz/static/media/backgroundCadastro.2aeb12f13d7f0ffaadaa.jpg",
+    "static/media/bootstrap-icons.woff?": "/frontendz/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/frontendz/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
+    "static/media/pexels-huseyn-kamaladdin-667838.jpg": "/frontendz/static/media/pexels-huseyn-kamaladdin-667838.282369631499a1ad8f7a.jpg",
+    "static/media/icone.png": "/frontendz/static/media/icone.11c180d71ada056af47b.png",
+    "index.html": "/frontendz/index.html",
+    "main.f953642a.css.map": "/frontendz/static/css/main.f953642a.css.map",
+    "main.1b16c8e4.js.map": "/frontendz/static/js/main.1b16c8e4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f953642a.css",
+    "static/js/main.1b16c8e4.js"
+  ]
+}
