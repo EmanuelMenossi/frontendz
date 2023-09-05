@@ -8,7 +8,7 @@ export default function Menu(props){
         <Navbar expand="lg">
         <Container fluid >
           <Image src={Icone} width='75' className='icone'></Image>
-          <Navbar.Brand href="#"><Link className='linkDeco Menu' to='/'>Quintal da Leitura</Link></Navbar.Brand>
+          <Navbar.Brand href="#"><Link className='linkDeco Menu' to='/frontendz'>Quintal da Leitura</Link></Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
@@ -17,10 +17,10 @@ export default function Menu(props){
               navbarScroll
             >  
               <NavDropdown title="Cadastros" id="navbarScrollingDropdown">
-                <NavDropdown.Item href="#"><Link className='linkDeco' to="/cadastroLivro">Cadastro de Titulo</Link></NavDropdown.Item>
+                <NavDropdown.Item href="#"><Link className='linkDeco' to="/cadastroLivro?">Cadastro de Titulo</Link></NavDropdown.Item>
               </NavDropdown>
               <Nav.Link to="/cadastroLivro" >
-              <Link className='linkDeco' to="/emprestimo">Empréstimo</Link>
+              <Link className='linkDeco' to="/emprestimo?">Empréstimo</Link>
               </Nav.Link>
             </Nav>
             <Form className="d-flex">
