@@ -61,7 +61,7 @@ export default function FormLivro(props) {
             <div className='row justify-content-center' id="corpo">
                 <div>
                     <Form onoValidate validated={valido} onSubmit={manipulaEvento} className="p-5 border rounded mainForm" noValidate>
-                    <h3 className="text-center mb-5 colorWhite">Cadastro de Título</h3>
+                    <h3 className="text-center mb-5 colorWhite">Cadastro de Exemplar</h3>
                         <Row className="row mb-3">
                         <Col md={2}>
                             <Form.Group>

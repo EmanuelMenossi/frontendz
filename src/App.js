@@ -9,9 +9,9 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/cadastroLivro" element={<TelaCadastroLivro />} />
-          <Route path="/emprestimo" element={<TelaCadastroEmprestimo />} />
-          <Route path="/" element={<TelaMenu></TelaMenu>}></Route>
+          <Route path="/cadastroLivro?" element={<TelaCadastroLivro />} />
+          <Route path="/emprestimo?" element={<TelaCadastroEmprestimo />} />
+          <Route path="/frontendz" element={<TelaMenu></TelaMenu>}></Route>
           <Route path="*" element={<Tela404></Tela404>}></Route>
         </Routes>
       </BrowserRouter>
