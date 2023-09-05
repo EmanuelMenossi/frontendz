@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/frontendz/static/css/main.f953642a.css",
-    "main.js": "/frontendz/static/js/main.1b16c8e4.js",
+    "main.js": "/frontendz/static/js/main.19315ae9.js",
     "static/media/pexels-gül-işık-4102712.jpg": "/frontendz/static/media/pexels-gül-işık-4102712.b6fc492d09433ff1ec6a.jpg",
     "static/media/pexels-mikhail-nilov-9158476.jpg": "/frontendz/static/media/pexels-mikhail-nilov-9158476.7d9057f06e002f7c8cb7.jpg",
     "static/media/backgroundCadastro.jpg": "/frontendz/static/media/backgroundCadastro.2aeb12f13d7f0ffaadaa.jpg",
@@ -11,10 +11,10 @@
     "static/media/icone.png": "/frontendz/static/media/icone.11c180d71ada056af47b.png",
     "index.html": "/frontendz/index.html",
     "main.f953642a.css.map": "/frontendz/static/css/main.f953642a.css.map",
-    "main.1b16c8e4.js.map": "/frontendz/static/js/main.1b16c8e4.js.map"
+    "main.19315ae9.js.map": "/frontendz/static/js/main.19315ae9.js.map"
   },
   "entrypoints": [
     "static/css/main.f953642a.css",
-    "static/js/main.1b16c8e4.js"
+    "static/js/main.19315ae9.js"
   ]
 }
