@@ -29,6 +29,11 @@
 .image-container {
   position: relative;
   text-align: center;
+  width: 100%;
+}
+
+body {
+  margin: 0;
 }
 
 .text-overlay {
@@ -42,18 +47,101 @@
 .img {
   width: 100%; /* Garante que a imagem ocupe 100% da largura do seu contêiner */
   height: auto; /* Mantém a proporção da imagem */
+  display: block;
+
 }
 
-@media (max-width: 768px) {
-  .img{
-    width: 70vh;
-    height: 70vh;
-  }
+
+@media (max-width: 1790px) {
   .text-overlay {
+      top: 37%;
       font-size: 2vw; /* Ajuste para telas menores */
   }
 }
 
+@media (max-width: 1490px) {
+  .text-overlay {
+      top: 22%;
+      font-size: 1vh; /* Ajuste para telas menores */
+  }
+  .letraInicio{
+    font-size: 1.4vw;
+  }
+  .tituloHotel{
+    font-size: 1.7vw;
+  }
+}
+
+@media (max-width: 1320px) {
+  .text-overlay {
+      top: 15%;
+      font-size: 1vh; /* Ajuste para telas menores */
+  }
+  .letraInicio{
+    font-size: 1.3vw;
+  }
+  .tituloHotel{
+    font-size: 1.7;
+  }
+  .camas div p{
+    font-size: 0.8em;
+  }
+  
+}
+
+@media (max-width: 1240px) {
+  .text-overlay {
+      top: 5%;
+      font-size: 1vh; /* Ajuste para telas menores */
+  }
+  .letraInicio{
+    font-size: 1.3vw;
+  }
+  .tituloHotel{
+    font-size: 1.7;
+  }
+  .camas div p{
+    font-size: 0.5em;
+  }
+}
+
+@media (max-width: 1070px) {
+  .text-overlay {
+      top: -10%;
+      font-size: 1vh; /* Ajuste para telas menores */
+  }
+  .letraInicio{
+    font-size: 1.3vw;
+  }
+  .tituloHotel{
+    font-size: 1.7em;
+  }
+  .camas div p{
+    font-size: 0.5em;
+  }
+}
+
+
 .tituloHotel {
   font-family: 'Mochiy Pop P one', sans-serif;
+}
+
+.camas{
+  margin: 2vh 10vh 2vh 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1vh;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.2em;
+
+}
+
+.camas aside{
+  padding-left: 1vw;
+
+}
+
+.imgCama{
+  height: 20vw;
 }
