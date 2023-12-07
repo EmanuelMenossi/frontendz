@@ -4,10 +4,12 @@ footer{
 
 .Rodape{
     color: white;
-    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)), url(../../img/pexels-gül-işık-4102712.jpg);
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)), url(../../img/wallpaer.jpg);
+    background-position: 50vh 0vh 50vh 20vh;
     background-size: cover;
     padding: 1em;
     text-align: center;
+    padding-left: 20rem;
 }
 
 .social_list{

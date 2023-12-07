@@ -1,23 +1,59 @@
-img {
-    border-radius: 1%;
-  }
+
 .paragrafo{
     padding: 1vh;
     list-style-type: none;
+    font-size: 1.2rem;
+    font-family:Georgia, 'Times New Roman', Times, serif
 }
 
-.corLetra{
-    color: white;
-}
 
 #wallpaperInicio{
-    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .55)), url(../../img/pexels-mikhail-nilov-9158476.jpg);
     background-size: cover;
     margin-top: 1vh;
-    padding: 5vh;
-    min-height: 100vh
+    min-height: 100vh;
+    position: relative;
+    text-align: center;
+    font-family: 'Mochiy Pop P one', sans-serif;
   }
 
-.listaInicio{
-    list-style-type: none;
+.listaCompleta{
+  margin: 5rem 2rem;
+  padding: 1rem 1rem;
+  box-shadow: 1px -1px 27px 9px rgba(255, 255, 255, 1);
+  -webkit-box-shadow:  1px -1px 27px 9px rgb(18, 18, 18);
+  -moz-box-shadow: 1px -1px 27px 9px rgba(255, 255, 255, 1);
+  background-color: rgba(255, 255, 255, 0.607);
+
+}
+
+.image-container {
+  position: relative;
+  text-align: center;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  color: rgb(0, 0, 0);
+  font-size: 1vw; /* Utilizando unidade relativa vw para tornar responsivo */
+  font-family: Arial, sans-serif;
+}
+
+.img {
+  width: 100%; /* Garante que a imagem ocupe 100% da largura do seu contêiner */
+  height: auto; /* Mantém a proporção da imagem */
+}
+
+@media (max-width: 768px) {
+  .img{
+    width: 70vh;
+    height: 70vh;
+  }
+  .text-overlay {
+      font-size: 2vw; /* Ajuste para telas menores */
+  }
+}
+
+.tituloHotel {
+  font-family: 'Mochiy Pop P one', sans-serif;
 }

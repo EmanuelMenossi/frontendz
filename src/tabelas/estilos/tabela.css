@@ -2,16 +2,26 @@
     margin: 1rem 0rem 1rem 0rem;
 }
 
-#colorwhite{
+
+.TituloTabela{
+    font-family: 'Mochiy Pop P one', sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)), url(../../img/icone.jpg);
+    background-size: cover;
+    padding: 5vh;
     color: white;
 }
 
-.colorwhite{
-    color: white;
+.fontLetra{
+    font-family: 'Nunito', sans-serif;
+    
 }
 
 .corpoTabela{
-    background-color: rgba(0, 0, 0, 0.671);
+    color: black;
+    box-shadow: 1px -1px 27px 9px rgba(51, 51, 51, 1);
+    -webkit-box-shadow: 1px -1px 27px 9px rgba(51, 51, 51, 1);
+    -moz-box-shadow: 1px -1px 27px 9px rgba(51, 51, 51, 1);
+    height: 100vh;
 }
 
 .PessoaEscp{
@@ -21,10 +31,6 @@
     margin-left: 0.4rem;
 }
 
-#green-text {
-    color: green;
-  }
-  
-#red-text {
- color: red;
+ .BotaoConfirmar{
+    margin-right: 55vh;
  }
