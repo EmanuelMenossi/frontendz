@@ -12,8 +12,8 @@ const sidebarNavItems = [
     {
         display: 'Cadastro',
         icon: <i className='bx bx-user'></i>,
-        to: '/pessoa',
-        section: 'pessoa'
+        to: '/cadastro',
+        section: 'cadastro'
     }
 ]
 

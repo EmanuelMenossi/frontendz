@@ -1,12 +1,12 @@
 import Pagina from "../templates/componentes/Pagina.js";
-import FormPessoa from "../Formularios/FormPessoa.jsx";
-import TabelaPessoa from "../tabelas/TabelaPessoa.jsx";
+import FormPessoa from "../Formularios/FormFisica.jsx";
+import TabelaPessoa from "../tabelas/TabelaFisica.jsx";
 import { useState, useEffect } from "react";
 import "../tabelas/estilos/tabela.css";
 import { urlBase } from "../utilitarios/definicoes.js";
 import { Spinner } from "react-bootstrap";
 
-export default function TelaCadastroPessoa(props) {
+export default function TelaCadastroFisico(props) {
     const [exibirTabela, setExibirTabela] = useState(true);
     const [pessoas, setPessoas] = useState([]);
     const [modoEdicao, setModoEdicao] = useState(false);

@@ -1,0 +1,17 @@
+.FisicoJuridico {box-shadow: 1px -1px 27px 9px rgba(51, 51, 51, 1);
+  -webkit-box-shadow: 1px -1px 27px 9px rgba(51, 51, 51, 1);
+  -moz-box-shadow: 1px -1px 27px 9px rgba(51, 51, 51, 1);
+  color: rgb(0, 0, 0);
+  font-size: 1.1em;
+  padding: 5vh;
+  margin: 5vw 20vw 0vw 20vw;
+  font-family: 'Nunito', sans-serif;
+  border: 1px solid rgb(255, 255, 255);}
+  
+  #TituloCadastroFisicoJuridico{
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)), url(../../img/icone.jpg);
+    padding: 2vh;
+    color: white;
+    font-family: 'Mochiy Pop P one', sans-serif;
+  }
+

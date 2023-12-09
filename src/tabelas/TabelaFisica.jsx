@@ -21,10 +21,11 @@ export default function TabelaPessoas(props) {
   return (
     <body id="corpo" className="colorwhite">
       <Container className="border corpoTabela PessoaEscp">
-        <h1 className="text-center TituloTabela">Cadastro de Pessoas <PiNotePencil /> </h1>
+        <h1 className="text-center TituloTabela">Cadastro de de pessoa Física <PiNotePencil /> </h1>
 
         <Row className="d-flex justify-content-end md-2">
         <Col>
+        <Button type="button" className="btn btn-secondary BotaoConfirmar" onClick={() => { window. history. back()}}>Voltar</Button>
         <Button className="BotaoConfirmar " variant="success"
           onClick={() => {
             props.exibirTabela(false)
