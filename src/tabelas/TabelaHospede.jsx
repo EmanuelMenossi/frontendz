@@ -72,7 +72,7 @@ export default function TabelaHospede(props) {
                   <td id="colorwhite">{pessoa.email}</td>
                   <td id="colorwhite">{pessoa.tipo}</td>
                   <td id="colorwhite">{pessoa.telefones.numero}</td>
-                  <td id="colorwhite">{pessoa.tipo === "Pessoa Física" ? pessoa.cpf : pessoa.cnpj}</td>
+                  <td id="colorwhite">{pessoa.tipo === "pessoa fisica" ? pessoa.cpf : pessoa.cnpj}</td>
                   <td>
                     <Button variant="warning" onClick={()=>{
                       if(

@@ -197,14 +197,47 @@ export default function FormHospede(props) {
         });
       }
     } else {
-      fetch(urlBase + "/hospede", {
-        method: "PUT",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(pessoa),
-      }).then((resposta) => {
-        window.alert("Atualizado com sucesso!");
-      });
-    }
+      if(pessoa.tipo === "pessoa fisica"){
+        fetch(urlBase + "/hospede", {
+          method: "PUT",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            codigo: pessoa.codigo,
+            nome: pessoa.nome,
+            endereco: pessoa.endereco,
+            email: pessoa.email,
+            tipo: pessoa.tipo,
+            pessoafisica: {
+              cpf: pessoa.cpf,
+              rg: pessoa.rg,
+            },
+          }),
+        }).then((resposta) => {
+          window.alert("Atualizado com sucesso!");
+        });
+      }else{
+        fetch(urlBase + "/hospede", {
+          method: "PUT",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            codigo: pessoa.codigo,
+            nome: pessoa.nome,
+            endereco: pessoa.endereco,
+            email: pessoa.email,
+            tipo: pessoa.tipo,
+            pessoajuridica: {
+              cnpj: pessoa.cnpj,
+            },
+          }),
+        }).then((resposta) => {
+          window.alert("Atualizado com sucesso!");
+        });
+      }
+
+
+
+      }
+     
   }
 
   function manipulaSubmissao(evento) {
@@ -267,6 +300,7 @@ export default function FormHospede(props) {
                   placeholder="Automático"
                   id="codigo"
                   disabled
+                  value={pessoa.codigo}
                 />
               </Form.Group>
             </Col>
