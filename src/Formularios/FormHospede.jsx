@@ -233,9 +233,6 @@ export default function FormHospede(props) {
           window.alert("Atualizado com sucesso!");
         });
       }
-
-
-
       }
      
   }
